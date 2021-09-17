@@ -1,0 +1,3 @@
+Found out after the CTF
+
+The dimensions of the PNG file are wrong. You need to fix them up, don't forget to fix the checksums too, and then that data at the end of the file will actually become part of the image and you can see it

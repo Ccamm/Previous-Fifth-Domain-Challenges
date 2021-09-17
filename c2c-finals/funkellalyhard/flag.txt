@@ -1,0 +1,3 @@
+Found out afterwards
+
+They disassembled, found a move instruction with the constant 0xdeadbeefcafe and thought that seems like a password for this program

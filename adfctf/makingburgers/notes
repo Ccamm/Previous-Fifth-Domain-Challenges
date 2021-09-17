@@ -1,0 +1,20 @@
+^CTraceback (most recent call last):
+  File "/make_burger.py", line 127, in load_burger
+  File "/usr/local/lib/python3.8/base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/make_burger.py", line 145, in <module>
+  File "/make_burger.py", line 132, in load_burger
+
+if you quit
+
+Uses pickle https://github.com/j0lt-github/python-deserialization-attack-payload-generator/blob/master/peas.py
+
+Also running on gcloud. Might be able to inject SSH key.
+
+
+https://ctftime.org/writeup/2247

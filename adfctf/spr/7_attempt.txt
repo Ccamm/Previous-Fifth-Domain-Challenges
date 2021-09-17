@@ -1,0 +1,3830 @@
+[x] Opening connection to spr-championship.ctf.fifthdoma.in on port 1700
+[x] Opening connection to spr-championship.ctf.fifthdoma.in on port 1700: Trying 35.189.30.48
+[+] Opening connection to spr-championship.ctf.fifthdoma.in on port 1700: Done
+====================================================================================================
+The SPR Championship is the most prestigious Scissors Paper Rock competition in the world! Compete
+against your opponents in gruelling matches for riches and fame. Do you have what it takes to be the
+next champion?
+
+Your "cheeky banter" before each match has landed you in hot water with the officials. You must now
+achieve much higher win rates than your opponent. At least they didn't kick you out?
+
+Instructions
+To win a match you must win the minimum specified number of bouts. The following input corresponds
+to valid moves.
+s - Scissors
+p - Paper
+r - Rock
+
+Are you ready? Select your challenger.
+Note: Flags must be submitted in order.
+
+1. Brock
+2. Max Studium
+3. Willie Thomas
+4. Rivka Adina
+5. Kat Moore
+6. Aleesha Price
+7. Abubakar Bolt
+8. Samuel Grainger
+
+====================================================================================================
+Your next match is against Abubakar Bolt.
+You will play 3200 games and win if you achieve a win rate of over 67.0%.
+Note: Draws do not count towards the game counter.
+
+Pre-match interview:
+"This is the first time I've been so close to the finals! I can't wait." - Abubakar Bolt
+
+Note: "exit" will quit the current match.
+
+-----------------------------
+
+
+You lost
+
+
+ p, they chose s.
+
+ p, they chose s.
+W: 0, L: 1, D: 0
+MARKOV
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 1 29
+
+You drew
+
+
+ p, they chose p.
+
+ p, they chose p.
+W: 0, L: 1, D: 1
+MARKOV
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 1. 0.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 2 29
+
+You won
+
+
+ p, they chose r.
+
+ p, they chose r.
+W: 1, L: 1, D: 1
+MARKOV
+[[0. 0. 0.]
+ [1. 0. 0.]
+ [0. 1. 0.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 3 29
+
+You drew
+
+
+ p, they chose p.
+
+ p, they chose p.
+W: 1, L: 1, D: 2
+MARKOV
+[[0. 1. 0.]
+ [1. 0. 0.]
+ [0. 1. 0.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 4 29
+
+You won
+
+
+ p, they chose r.
+
+ p, they chose r.
+W: 2, L: 1, D: 2
+MARKOV
+[[0. 1. 0.]
+ [2. 0. 0.]
+ [0. 1. 0.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 5 29
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 2, L: 2, D: 2
+MARKOV
+[[1. 1. 0.]
+ [2. 0. 0.]
+ [0. 1. 0.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 6 29
+
+You drew
+
+
+ p, they chose p.
+
+ p, they chose p.
+W: 2, L: 2, D: 3
+MARKOV
+[[1. 2. 0.]
+ [2. 0. 0.]
+ [0. 1. 0.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 7 29
+
+You drew
+
+
+ p, they chose p.
+
+ p, they chose p.
+W: 2, L: 2, D: 4
+MARKOV
+[[1. 2. 0.]
+ [2. 1. 0.]
+ [0. 1. 0.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 8 29
+
+You lost
+
+
+ p, they chose s.
+
+ p, they chose s.
+W: 2, L: 3, D: 4
+MARKOV
+[[1. 2. 0.]
+ [2. 1. 1.]
+ [0. 1. 0.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 9 29
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 3, L: 3, D: 4
+MARKOV
+[[1. 2. 0.]
+ [2. 1. 1.]
+ [0. 2. 0.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 10 29
+
+You drew
+
+
+ p, they chose p.
+
+ p, they chose p.
+W: 3, L: 3, D: 5
+MARKOV
+[[1. 2. 0.]
+ [2. 2. 1.]
+ [0. 2. 0.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 11 29
+
+You drew
+
+
+ p, they chose p.
+
+ p, they chose p.
+W: 3, L: 3, D: 6
+MARKOV
+[[1. 2. 0.]
+ [2. 3. 1.]
+ [0. 2. 0.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 12 29
+
+You drew
+
+
+ p, they chose p.
+
+ p, they chose p.
+W: 3, L: 3, D: 7
+MARKOV
+[[1. 2. 0.]
+ [2. 4. 1.]
+ [0. 2. 0.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 13 29
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 3, L: 4, D: 7
+MARKOV
+[[1. 2. 0.]
+ [3. 4. 1.]
+ [0. 2. 0.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 14 29
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 3, L: 5, D: 7
+MARKOV
+[[2. 2. 0.]
+ [3. 4. 1.]
+ [0. 2. 0.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 15 29
+
+You drew
+
+
+ p, they chose p.
+
+ p, they chose p.
+W: 3, L: 5, D: 8
+MARKOV
+[[2. 3. 0.]
+ [3. 4. 1.]
+ [0. 2. 0.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 16 29
+
+You lost
+
+
+ p, they chose s.
+
+ p, they chose s.
+W: 3, L: 6, D: 8
+MARKOV
+[[2. 3. 0.]
+ [3. 4. 2.]
+ [0. 2. 0.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 17 29
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 3, L: 6, D: 9
+MARKOV
+[[2. 3. 0.]
+ [3. 4. 2.]
+ [0. 2. 1.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 18 29
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 3, L: 6, D: 10
+MARKOV
+[[2. 3. 0.]
+ [3. 4. 2.]
+ [0. 2. 2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 19 29
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 4, L: 6, D: 10
+MARKOV
+[[2. 3. 0.]
+ [3. 4. 2.]
+ [0. 3. 2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 20 29
+
+You lost
+
+
+ p, they chose s.
+
+ p, they chose s.
+W: 4, L: 7, D: 10
+MARKOV
+[[2. 3. 0.]
+ [3. 4. 3.]
+ [0. 3. 2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 21 29
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 5, L: 7, D: 10
+MARKOV
+[[2. 3. 0.]
+ [3. 4. 3.]
+ [0. 4. 2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 22 29
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 6, L: 7, D: 10
+MARKOV
+[[2. 3. 0.]
+ [3. 5. 3.]
+ [0. 4. 2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 23 29
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 7, L: 7, D: 10
+MARKOV
+[[2. 3. 0.]
+ [3. 6. 3.]
+ [0. 4. 2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 24 29
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 7, L: 7, D: 11
+MARKOV
+[[2. 3. 0.]
+ [3. 6. 4.]
+ [0. 4. 2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 25 29
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 7, L: 8, D: 11
+MARKOV
+[[2. 3. 0.]
+ [3. 6. 4.]
+ [1. 4. 2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 26 29
+
+You lost
+
+
+ p, they chose s.
+
+ p, they chose s.
+W: 7, L: 9, D: 11
+MARKOV
+[[2. 3. 1.]
+ [3. 6. 4.]
+ [1. 4. 2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 27 29
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 8, L: 9, D: 11
+MARKOV
+[[2. 3. 1.]
+ [3. 6. 4.]
+ [1. 5. 2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+0 28 29
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 8, L: 10, D: 11
+MARKOV
+[[2. 3. 1.]
+ [4. 6. 4.]
+ [1. 5. 2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 0 27
+
+You won
+
+
+ p, they chose r.
+
+ p, they chose r.
+W: 9, L: 10, D: 11
+MARKOV
+[[3. 3. 1.]
+ [4. 6. 4.]
+ [1. 5. 2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 1 27
+
+You lost
+
+
+ p, they chose s.
+
+ p, they chose s.
+W: 9, L: 11, D: 11
+MARKOV
+[[3. 3. 2.]
+ [4. 6. 4.]
+ [1. 5. 2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 2 27
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 10, L: 11, D: 11
+MARKOV
+[[3. 3. 2.]
+ [4. 6. 4.]
+ [1. 6. 2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 3 27
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 10, L: 12, D: 11
+MARKOV
+[[3. 3. 2.]
+ [5. 6. 4.]
+ [1. 6. 2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 4 27
+
+You lost
+
+
+ p, they chose s.
+
+ p, they chose s.
+W: 10, L: 13, D: 11
+MARKOV
+[[3. 3. 3.]
+ [5. 6. 4.]
+ [1. 6. 2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 5 27
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 11, L: 13, D: 11
+MARKOV
+[[3. 3. 3.]
+ [5. 6. 4.]
+ [1. 7. 2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 6 27
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 12, L: 13, D: 11
+MARKOV
+[[3. 3. 3.]
+ [5. 7. 4.]
+ [1. 7. 2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 7 27
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 13, L: 13, D: 11
+MARKOV
+[[3. 3. 3.]
+ [5. 8. 4.]
+ [1. 7. 2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 8 27
+
+You drew
+
+
+ p, they chose p.
+
+ p, they chose p.
+W: 13, L: 13, D: 12
+MARKOV
+[[3. 3. 3.]
+ [5. 9. 4.]
+ [1. 7. 2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 9 27
+
+You lost
+
+
+ p, they chose s.
+
+ p, they chose s.
+W: 13, L: 14, D: 12
+MARKOV
+[[3. 3. 3.]
+ [5. 9. 5.]
+ [1. 7. 2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 10 27
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 14, L: 14, D: 12
+MARKOV
+[[3. 3. 3.]
+ [5. 9. 5.]
+ [1. 8. 2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 11 27
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 14, L: 15, D: 12
+MARKOV
+[[3. 3. 3.]
+ [6. 9. 5.]
+ [1. 8. 2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 12 27
+
+You lost
+
+
+ p, they chose s.
+
+ p, they chose s.
+W: 14, L: 16, D: 12
+MARKOV
+[[3. 3. 4.]
+ [6. 9. 5.]
+ [1. 8. 2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 13 27
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 15, L: 16, D: 12
+MARKOV
+[[3. 3. 4.]
+ [6. 9. 5.]
+ [1. 9. 2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 14 27
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 15, L: 17, D: 12
+MARKOV
+[[3. 3. 4.]
+ [7. 9. 5.]
+ [1. 9. 2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 15 27
+
+You lost
+
+
+ r, they chose p.
+
+ r, they chose p.
+W: 15, L: 18, D: 12
+MARKOV
+[[3. 4. 4.]
+ [7. 9. 5.]
+ [1. 9. 2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 16 27
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 16, L: 18, D: 12
+MARKOV
+[[ 3.  4.  4.]
+ [ 7. 10.  5.]
+ [ 1.  9.  2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 17 27
+
+You drew
+
+
+ p, they chose p.
+
+ p, they chose p.
+W: 16, L: 18, D: 13
+MARKOV
+[[ 3.  4.  4.]
+ [ 7. 11.  5.]
+ [ 1.  9.  2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 18 27
+
+You won
+
+
+ p, they chose r.
+
+ p, they chose r.
+W: 17, L: 18, D: 13
+MARKOV
+[[ 3.  4.  4.]
+ [ 8. 11.  5.]
+ [ 1.  9.  2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 19 27
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 18, L: 18, D: 13
+MARKOV
+[[ 3.  5.  4.]
+ [ 8. 11.  5.]
+ [ 1.  9.  2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 20 27
+
+You won
+
+
+ p, they chose r.
+
+ p, they chose r.
+W: 19, L: 18, D: 13
+MARKOV
+[[ 3.  5.  4.]
+ [ 9. 11.  5.]
+ [ 1.  9.  2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 21 27
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 19, L: 18, D: 14
+MARKOV
+[[ 3.  5.  5.]
+ [ 9. 11.  5.]
+ [ 1.  9.  2.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 22 27
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 19, L: 18, D: 15
+MARKOV
+[[ 3.  5.  5.]
+ [ 9. 11.  5.]
+ [ 1.  9.  3.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 23 27
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 19, L: 19, D: 15
+MARKOV
+[[ 3.  5.  5.]
+ [ 9. 11.  5.]
+ [ 2.  9.  3.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 24 27
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 19, L: 20, D: 15
+MARKOV
+[[ 4.  5.  5.]
+ [ 9. 11.  5.]
+ [ 2.  9.  3.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 25 27
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 19, L: 20, D: 16
+MARKOV
+[[ 4.  5.  6.]
+ [ 9. 11.  5.]
+ [ 2.  9.  3.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 26 27
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 19, L: 21, D: 16
+MARKOV
+[[ 4.  5.  6.]
+ [ 9. 11.  5.]
+ [ 3.  9.  3.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 0 27
+
+You drew
+
+
+ r, they chose r.
+
+ r, they chose r.
+W: 19, L: 21, D: 17
+MARKOV
+[[ 5.  5.  6.]
+ [ 9. 11.  5.]
+ [ 3.  9.  3.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 1 27
+
+You won
+
+
+ r, they chose s.
+
+ r, they chose s.
+W: 20, L: 21, D: 17
+MARKOV
+[[ 5.  5.  7.]
+ [ 9. 11.  5.]
+ [ 3.  9.  3.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 2 27
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 21, L: 21, D: 17
+MARKOV
+[[ 5.  5.  7.]
+ [ 9. 11.  5.]
+ [ 3. 10.  3.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 3 27
+
+You won
+
+
+ p, they chose r.
+
+ p, they chose r.
+W: 22, L: 21, D: 17
+MARKOV
+[[ 5.  5.  7.]
+ [10. 11.  5.]
+ [ 3. 10.  3.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 4 27
+
+You won
+
+
+ r, they chose s.
+
+ r, they chose s.
+W: 23, L: 21, D: 17
+MARKOV
+[[ 5.  5.  8.]
+ [10. 11.  5.]
+ [ 3. 10.  3.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 5 27
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 24, L: 21, D: 17
+MARKOV
+[[ 5.  5.  8.]
+ [10. 11.  5.]
+ [ 3. 11.  3.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 6 27
+
+You drew
+
+
+ p, they chose p.
+
+ p, they chose p.
+W: 24, L: 21, D: 18
+MARKOV
+[[ 5.  5.  8.]
+ [10. 12.  5.]
+ [ 3. 11.  3.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 7 27
+
+You drew
+
+
+ p, they chose p.
+
+ p, they chose p.
+W: 24, L: 21, D: 19
+MARKOV
+[[ 5.  5.  8.]
+ [10. 13.  5.]
+ [ 3. 11.  3.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 8 27
+
+You drew
+
+
+ p, they chose p.
+
+ p, they chose p.
+W: 24, L: 21, D: 20
+MARKOV
+[[ 5.  5.  8.]
+ [10. 14.  5.]
+ [ 3. 11.  3.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 9 27
+
+You lost
+
+
+ p, they chose s.
+
+ p, they chose s.
+W: 24, L: 22, D: 20
+MARKOV
+[[ 5.  5.  8.]
+ [10. 14.  6.]
+ [ 3. 11.  3.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 10 27
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 25, L: 22, D: 20
+MARKOV
+[[ 5.  5.  8.]
+ [10. 14.  6.]
+ [ 3. 12.  3.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 11 27
+
+You won
+
+
+ p, they chose r.
+
+ p, they chose r.
+W: 26, L: 22, D: 20
+MARKOV
+[[ 5.  5.  8.]
+ [11. 14.  6.]
+ [ 3. 12.  3.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 12 27
+
+You won
+
+
+ r, they chose s.
+
+ r, they chose s.
+W: 27, L: 22, D: 20
+MARKOV
+[[ 5.  5.  9.]
+ [11. 14.  6.]
+ [ 3. 12.  3.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 13 27
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 28, L: 22, D: 20
+MARKOV
+[[ 5.  5.  9.]
+ [11. 14.  6.]
+ [ 3. 13.  3.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 14 27
+
+You won
+
+
+ p, they chose r.
+
+ p, they chose r.
+W: 29, L: 22, D: 20
+MARKOV
+[[ 5.  5.  9.]
+ [12. 14.  6.]
+ [ 3. 13.  3.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 15 27
+
+You lost
+
+
+ r, they chose p.
+
+ r, they chose p.
+W: 29, L: 23, D: 20
+MARKOV
+[[ 5.  6.  9.]
+ [12. 14.  6.]
+ [ 3. 13.  3.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 16 27
+
+You drew
+
+
+ p, they chose p.
+
+ p, they chose p.
+W: 29, L: 23, D: 21
+MARKOV
+[[ 5.  6.  9.]
+ [12. 15.  6.]
+ [ 3. 13.  3.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 17 27
+
+You drew
+
+
+ p, they chose p.
+
+ p, they chose p.
+W: 29, L: 23, D: 22
+MARKOV
+[[ 5.  6.  9.]
+ [12. 16.  6.]
+ [ 3. 13.  3.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 18 27
+
+You won
+
+
+ p, they chose r.
+
+ p, they chose r.
+W: 30, L: 23, D: 22
+MARKOV
+[[ 5.  6.  9.]
+ [13. 16.  6.]
+ [ 3. 13.  3.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 19 27
+
+You lost
+
+
+ r, they chose p.
+
+ r, they chose p.
+W: 30, L: 24, D: 22
+MARKOV
+[[ 5.  7.  9.]
+ [13. 16.  6.]
+ [ 3. 13.  3.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 20 27
+
+You won
+
+
+ p, they chose r.
+
+ p, they chose r.
+W: 31, L: 24, D: 22
+MARKOV
+[[ 5.  7.  9.]
+ [14. 16.  6.]
+ [ 3. 13.  3.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 21 27
+
+You won
+
+
+ r, they chose s.
+
+ r, they chose s.
+W: 32, L: 24, D: 22
+MARKOV
+[[ 5.  7. 10.]
+ [14. 16.  6.]
+ [ 3. 13.  3.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 22 27
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 32, L: 24, D: 23
+MARKOV
+[[ 5.  7. 10.]
+ [14. 16.  6.]
+ [ 3. 13.  4.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 23 27
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 32, L: 25, D: 23
+MARKOV
+[[ 5.  7. 10.]
+ [14. 16.  6.]
+ [ 4. 13.  4.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 24 27
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 32, L: 26, D: 23
+MARKOV
+[[ 6.  7. 10.]
+ [14. 16.  6.]
+ [ 4. 13.  4.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 25 27
+
+You won
+
+
+ r, they chose s.
+
+ r, they chose s.
+W: 33, L: 26, D: 23
+MARKOV
+[[ 6.  7. 11.]
+ [14. 16.  6.]
+ [ 4. 13.  4.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+4 26 27
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 33, L: 27, D: 23
+MARKOV
+[[ 6.  7. 11.]
+ [14. 16.  6.]
+ [ 5. 13.  4.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+5 0 28
+
+You drew
+
+
+ r, they chose r.
+
+ r, they chose r.
+W: 33, L: 27, D: 24
+MARKOV
+[[ 7.  7. 11.]
+ [14. 16.  6.]
+ [ 5. 13.  4.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+5 1 28
+
+You lost
+
+
+ r, they chose p.
+
+ r, they chose p.
+W: 33, L: 28, D: 24
+MARKOV
+[[ 7.  8. 11.]
+ [14. 16.  6.]
+ [ 5. 13.  4.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+5 2 28
+
+You lost
+
+
+ p, they chose s.
+
+ p, they chose s.
+W: 33, L: 29, D: 24
+MARKOV
+[[ 7.  8. 11.]
+ [14. 16.  7.]
+ [ 5. 13.  4.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+5 3 28
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 33, L: 29, D: 25
+MARKOV
+[[ 7.  8. 11.]
+ [14. 16.  7.]
+ [ 5. 13.  5.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+5 4 28
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 33, L: 30, D: 25
+MARKOV
+[[ 7.  8. 11.]
+ [14. 16.  7.]
+ [ 6. 13.  5.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+5 5 28
+
+You lost
+
+
+ r, they chose p.
+
+ r, they chose p.
+W: 33, L: 31, D: 25
+MARKOV
+[[ 7.  9. 11.]
+ [14. 16.  7.]
+ [ 6. 13.  5.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+5 6 28
+
+You drew
+
+
+ p, they chose p.
+
+ p, they chose p.
+W: 33, L: 31, D: 26
+MARKOV
+[[ 7.  9. 11.]
+ [14. 17.  7.]
+ [ 6. 13.  5.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+5 7 28
+
+You drew
+
+
+ p, they chose p.
+
+ p, they chose p.
+W: 33, L: 31, D: 27
+MARKOV
+[[ 7.  9. 11.]
+ [14. 18.  7.]
+ [ 6. 13.  5.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+5 8 28
+
+You drew
+
+
+ p, they chose p.
+
+ p, they chose p.
+W: 33, L: 31, D: 28
+MARKOV
+[[ 7.  9. 11.]
+ [14. 19.  7.]
+ [ 6. 13.  5.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+5 9 28
+
+You won
+
+
+ p, they chose r.
+
+ p, they chose r.
+W: 34, L: 31, D: 28
+MARKOV
+[[ 7.  9. 11.]
+ [15. 19.  7.]
+ [ 6. 13.  5.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+5 10 28
+
+You won
+
+
+ r, they chose s.
+
+ r, they chose s.
+W: 35, L: 31, D: 28
+MARKOV
+[[ 7.  9. 12.]
+ [15. 19.  7.]
+ [ 6. 13.  5.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+5 11 28
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 35, L: 31, D: 29
+MARKOV
+[[ 7.  9. 12.]
+ [15. 19.  7.]
+ [ 6. 13.  6.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+5 12 28
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 35, L: 31, D: 30
+MARKOV
+[[ 7.  9. 12.]
+ [15. 19.  7.]
+ [ 6. 13.  7.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+5 13 28
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 35, L: 32, D: 30
+MARKOV
+[[ 7.  9. 12.]
+ [15. 19.  7.]
+ [ 7. 13.  7.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+5 14 28
+
+You drew
+
+
+ r, they chose r.
+
+ r, they chose r.
+W: 35, L: 32, D: 31
+MARKOV
+[[ 8.  9. 12.]
+ [15. 19.  7.]
+ [ 7. 13.  7.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+5 15 28
+
+You drew
+
+
+ r, they chose r.
+
+ r, they chose r.
+W: 35, L: 32, D: 32
+MARKOV
+[[ 9.  9. 12.]
+ [15. 19.  7.]
+ [ 7. 13.  7.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+5 16 28
+
+You won
+
+
+ r, they chose s.
+
+ r, they chose s.
+W: 36, L: 32, D: 32
+MARKOV
+[[ 9.  9. 13.]
+ [15. 19.  7.]
+ [ 7. 13.  7.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+5 17 28
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 37, L: 32, D: 32
+MARKOV
+[[ 9.  9. 13.]
+ [15. 19.  7.]
+ [ 7. 14.  7.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+5 18 28
+
+You lost
+
+
+ p, they chose s.
+
+ p, they chose s.
+W: 37, L: 33, D: 32
+MARKOV
+[[ 9.  9. 13.]
+ [15. 19.  8.]
+ [ 7. 14.  7.]]
+CUTOFFS
+[0.5, 0.5, 0.5]
+--------------------------------------------------
+What is your move?
+5 19 28
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 37, L: 34, D: 32
+MARKOV
+[[ 9.  9. 13.]
+ [15. 19.  8.]
+ [ 8. 14.  7.]]
+CUTOFFS
+[0.5, 0.5, 0.4]
+--------------------------------------------------
+What is your move?
+5 20 28
+
+You drew
+
+
+ r, they chose r.
+
+ r, they chose r.
+W: 37, L: 34, D: 33
+MARKOV
+[[10.  9. 13.]
+ [15. 19.  8.]
+ [ 8. 14.  7.]]
+CUTOFFS
+[0.5, 0.5, 0.4]
+--------------------------------------------------
+What is your move?
+5 21 28
+
+You drew
+
+
+ r, they chose r.
+
+ r, they chose r.
+W: 37, L: 34, D: 34
+MARKOV
+[[11.  9. 13.]
+ [15. 19.  8.]
+ [ 8. 14.  7.]]
+CUTOFFS
+[0.5, 0.5, 0.4]
+--------------------------------------------------
+What is your move?
+5 22 28
+
+You lost
+
+
+ r, they chose p.
+
+ r, they chose p.
+W: 37, L: 35, D: 34
+MARKOV
+[[11. 10. 13.]
+ [15. 19.  8.]
+ [ 8. 14.  7.]]
+CUTOFFS
+[0.4, 0.5, 0.4]
+--------------------------------------------------
+What is your move?
+5 23 28
+
+You drew
+
+
+ p, they chose p.
+
+ p, they chose p.
+W: 37, L: 35, D: 35
+MARKOV
+[[11. 10. 13.]
+ [15. 20.  8.]
+ [ 8. 14.  7.]]
+CUTOFFS
+[0.4, 0.5, 0.4]
+--------------------------------------------------
+What is your move?
+5 24 28
+
+You drew
+
+
+ p, they chose p.
+
+ p, they chose p.
+W: 37, L: 35, D: 36
+MARKOV
+[[11. 10. 13.]
+ [15. 21.  8.]
+ [ 8. 14.  7.]]
+CUTOFFS
+[0.4, 0.5, 0.4]
+--------------------------------------------------
+What is your move?
+5 25 28
+
+You lost
+
+
+ p, they chose s.
+
+ p, they chose s.
+W: 37, L: 36, D: 36
+MARKOV
+[[11. 10. 13.]
+ [15. 21.  9.]
+ [ 8. 14.  7.]]
+CUTOFFS
+[0.4, 0.4, 0.4]
+--------------------------------------------------
+What is your move?
+5 26 28
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 37, L: 37, D: 36
+MARKOV
+[[11. 10. 13.]
+ [15. 21.  9.]
+ [ 9. 14.  7.]]
+CUTOFFS
+[0.4, 0.4, 0.35000000000000003]
+--------------------------------------------------
+What is your move?
+5 27 28
+
+You won
+
+
+ r, they chose s.
+
+ r, they chose s.
+W: 38, L: 37, D: 36
+MARKOV
+[[11. 10. 14.]
+ [15. 21.  9.]
+ [ 9. 14.  7.]]
+CUTOFFS
+[0.45, 0.4, 0.35000000000000003]
+--------------------------------------------------
+What is your move?
+5 0 28
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 38, L: 38, D: 36
+MARKOV
+[[11. 10. 14.]
+ [15. 21.  9.]
+ [10. 14.  7.]]
+CUTOFFS
+[0.45, 0.4, 0.3166666666666667]
+--------------------------------------------------
+What is your move?
+5 1 28
+
+You lost
+
+
+ r, they chose p.
+
+ r, they chose p.
+W: 38, L: 39, D: 36
+MARKOV
+[[11. 11. 14.]
+ [15. 21.  9.]
+ [10. 14.  7.]]
+CUTOFFS
+[0.4166666666666667, 0.4, 0.3166666666666667]
+--------------------------------------------------
+What is your move?
+5 2 28
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 38, L: 39, D: 37
+MARKOV
+[[11. 11. 14.]
+ [15. 21. 10.]
+ [10. 14.  7.]]
+CUTOFFS
+[0.4166666666666667, 0.4, 0.3166666666666667]
+--------------------------------------------------
+What is your move?
+5 3 28
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 38, L: 39, D: 38
+MARKOV
+[[11. 11. 14.]
+ [15. 21. 10.]
+ [10. 14.  8.]]
+CUTOFFS
+[0.4166666666666667, 0.4, 0.3166666666666667]
+--------------------------------------------------
+What is your move?
+5 4 28
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 38, L: 40, D: 38
+MARKOV
+[[11. 11. 14.]
+ [15. 21. 10.]
+ [11. 14.  8.]]
+CUTOFFS
+[0.4166666666666667, 0.4, 0.2916666666666667]
+--------------------------------------------------
+What is your move?
+5 5 28
+
+You lost
+
+
+ r, they chose p.
+
+ r, they chose p.
+W: 38, L: 41, D: 38
+MARKOV
+[[11. 12. 14.]
+ [15. 21. 10.]
+ [11. 14.  8.]]
+CUTOFFS
+[0.39166666666666666, 0.4, 0.2916666666666667]
+--------------------------------------------------
+What is your move?
+5 6 28
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 39, L: 41, D: 38
+MARKOV
+[[11. 12. 14.]
+ [15. 22. 10.]
+ [11. 14.  8.]]
+CUTOFFS
+[0.39166666666666666, 0.45, 0.2916666666666667]
+--------------------------------------------------
+What is your move?
+5 7 28
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 40, L: 41, D: 38
+MARKOV
+[[11. 12. 14.]
+ [15. 23. 10.]
+ [11. 14.  8.]]
+CUTOFFS
+[0.39166666666666666, 0.48333333333333334, 0.2916666666666667]
+--------------------------------------------------
+What is your move?
+5 8 28
+
+You drew
+
+
+ p, they chose p.
+
+ p, they chose p.
+W: 40, L: 41, D: 39
+MARKOV
+[[11. 12. 14.]
+ [15. 24. 10.]
+ [11. 14.  8.]]
+CUTOFFS
+[0.39166666666666666, 0.48333333333333334, 0.2916666666666667]
+--------------------------------------------------
+What is your move?
+5 9 28
+
+You won
+
+
+ p, they chose r.
+
+ p, they chose r.
+W: 41, L: 41, D: 39
+MARKOV
+[[11. 12. 14.]
+ [16. 24. 10.]
+ [11. 14.  8.]]
+CUTOFFS
+[0.39166666666666666, 0.5083333333333333, 0.2916666666666667]
+--------------------------------------------------
+What is your move?
+5 10 28
+
+You won
+
+
+ r, they chose s.
+
+ r, they chose s.
+W: 42, L: 41, D: 39
+MARKOV
+[[11. 12. 15.]
+ [16. 24. 10.]
+ [11. 14.  8.]]
+CUTOFFS
+[0.4116666666666667, 0.5083333333333333, 0.2916666666666667]
+--------------------------------------------------
+What is your move?
+5 11 28
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 42, L: 41, D: 40
+MARKOV
+[[11. 12. 15.]
+ [16. 24. 10.]
+ [11. 14.  9.]]
+CUTOFFS
+[0.4116666666666667, 0.5083333333333333, 0.2916666666666667]
+--------------------------------------------------
+What is your move?
+5 12 28
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 42, L: 41, D: 41
+MARKOV
+[[11. 12. 15.]
+ [16. 24. 10.]
+ [11. 14. 10.]]
+CUTOFFS
+[0.4116666666666667, 0.5083333333333333, 0.2916666666666667]
+--------------------------------------------------
+What is your move?
+5 13 28
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 42, L: 42, D: 41
+MARKOV
+[[11. 12. 15.]
+ [16. 24. 10.]
+ [12. 14. 10.]]
+CUTOFFS
+[0.4116666666666667, 0.5083333333333333, 0.27166666666666667]
+--------------------------------------------------
+What is your move?
+5 14 28
+
+You drew
+
+
+ r, they chose r.
+
+ r, they chose r.
+W: 42, L: 42, D: 42
+MARKOV
+[[12. 12. 15.]
+ [16. 24. 10.]
+ [12. 14. 10.]]
+CUTOFFS
+[0.4116666666666667, 0.5083333333333333, 0.27166666666666667]
+--------------------------------------------------
+What is your move?
+5 15 28
+
+You drew
+
+
+ r, they chose r.
+
+ r, they chose r.
+W: 42, L: 42, D: 43
+MARKOV
+[[13. 12. 15.]
+ [16. 24. 10.]
+ [12. 14. 10.]]
+CUTOFFS
+[0.4116666666666667, 0.5083333333333333, 0.27166666666666667]
+--------------------------------------------------
+What is your move?
+5 16 28
+
+You won
+
+
+ r, they chose s.
+
+ r, they chose s.
+W: 43, L: 42, D: 43
+MARKOV
+[[13. 12. 16.]
+ [16. 24. 10.]
+ [12. 14. 10.]]
+CUTOFFS
+[0.42833333333333334, 0.5083333333333333, 0.27166666666666667]
+--------------------------------------------------
+What is your move?
+5 17 28
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 44, L: 42, D: 43
+MARKOV
+[[13. 12. 16.]
+ [16. 24. 10.]
+ [12. 15. 10.]]
+CUTOFFS
+[0.42833333333333334, 0.5083333333333333, 0.28833333333333333]
+--------------------------------------------------
+What is your move?
+5 18 28
+
+You lost
+
+
+ p, they chose s.
+
+ p, they chose s.
+W: 44, L: 43, D: 43
+MARKOV
+[[13. 12. 16.]
+ [16. 24. 11.]
+ [12. 15. 10.]]
+CUTOFFS
+[0.42833333333333334, 0.4883333333333333, 0.28833333333333333]
+--------------------------------------------------
+What is your move?
+5 19 28
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 44, L: 44, D: 43
+MARKOV
+[[13. 12. 16.]
+ [16. 24. 11.]
+ [13. 15. 10.]]
+CUTOFFS
+[0.42833333333333334, 0.4883333333333333, 0.27404761904761904]
+--------------------------------------------------
+What is your move?
+5 20 28
+
+You drew
+
+
+ r, they chose r.
+
+ r, they chose r.
+W: 44, L: 44, D: 44
+MARKOV
+[[14. 12. 16.]
+ [16. 24. 11.]
+ [13. 15. 10.]]
+CUTOFFS
+[0.42833333333333334, 0.4883333333333333, 0.27404761904761904]
+--------------------------------------------------
+What is your move?
+5 21 28
+
+You drew
+
+
+ r, they chose r.
+
+ r, they chose r.
+W: 44, L: 44, D: 45
+MARKOV
+[[15. 12. 16.]
+ [16. 24. 11.]
+ [13. 15. 10.]]
+CUTOFFS
+[0.42833333333333334, 0.4883333333333333, 0.27404761904761904]
+--------------------------------------------------
+What is your move?
+5 22 28
+
+You lost
+
+
+ r, they chose p.
+
+ r, they chose p.
+W: 44, L: 45, D: 45
+MARKOV
+[[15. 13. 16.]
+ [16. 24. 11.]
+ [13. 15. 10.]]
+CUTOFFS
+[0.41404761904761905, 0.4883333333333333, 0.27404761904761904]
+--------------------------------------------------
+What is your move?
+5 23 28
+
+You drew
+
+
+ p, they chose p.
+
+ p, they chose p.
+W: 44, L: 45, D: 46
+MARKOV
+[[15. 13. 16.]
+ [16. 25. 11.]
+ [13. 15. 10.]]
+CUTOFFS
+[0.41404761904761905, 0.4883333333333333, 0.27404761904761904]
+--------------------------------------------------
+What is your move?
+5 24 28
+
+You drew
+
+
+ p, they chose p.
+
+ p, they chose p.
+W: 44, L: 45, D: 47
+MARKOV
+[[15. 13. 16.]
+ [16. 26. 11.]
+ [13. 15. 10.]]
+CUTOFFS
+[0.41404761904761905, 0.4883333333333333, 0.27404761904761904]
+--------------------------------------------------
+What is your move?
+5 25 28
+
+You lost
+
+
+ p, they chose s.
+
+ p, they chose s.
+W: 44, L: 46, D: 47
+MARKOV
+[[15. 13. 16.]
+ [16. 26. 12.]
+ [13. 15. 10.]]
+CUTOFFS
+[0.41404761904761905, 0.4716666666666666, 0.27404761904761904]
+--------------------------------------------------
+What is your move?
+5 26 28
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 44, L: 47, D: 47
+MARKOV
+[[15. 13. 16.]
+ [16. 26. 12.]
+ [14. 15. 10.]]
+CUTOFFS
+[0.41404761904761905, 0.4716666666666666, 0.26154761904761903]
+--------------------------------------------------
+What is your move?
+5 27 28
+
+You won
+
+
+ r, they chose s.
+
+ r, they chose s.
+W: 45, L: 47, D: 47
+MARKOV
+[[15. 13. 17.]
+ [16. 26. 12.]
+ [14. 15. 10.]]
+CUTOFFS
+[0.42654761904761906, 0.4716666666666666, 0.26154761904761903]
+--------------------------------------------------
+What is your move?
+2 0 29
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 46, L: 47, D: 47
+MARKOV
+[[15. 13. 17.]
+ [16. 26. 12.]
+ [14. 16. 10.]]
+CUTOFFS
+[0.42654761904761906, 0.4716666666666666, 0.27265873015873016]
+--------------------------------------------------
+What is your move?
+2 1 29
+
+You lost
+
+
+ p, they chose s.
+
+ p, they chose s.
+W: 46, L: 48, D: 47
+MARKOV
+[[15. 13. 17.]
+ [16. 26. 13.]
+ [14. 16. 10.]]
+CUTOFFS
+[0.42654761904761906, 0.45738095238095233, 0.27265873015873016]
+--------------------------------------------------
+What is your move?
+2 2 29
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 46, L: 49, D: 47
+MARKOV
+[[15. 13. 17.]
+ [16. 26. 13.]
+ [15. 16. 10.]]
+CUTOFFS
+[0.42654761904761906, 0.45738095238095233, 0.26265873015873015]
+--------------------------------------------------
+What is your move?
+2 3 29
+
+You lost
+
+
+ r, they chose p.
+
+ r, they chose p.
+W: 46, L: 50, D: 47
+MARKOV
+[[15. 14. 17.]
+ [16. 26. 13.]
+ [15. 16. 10.]]
+CUTOFFS
+[0.41543650793650794, 0.45738095238095233, 0.26265873015873015]
+--------------------------------------------------
+What is your move?
+2 4 29
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 47, L: 50, D: 47
+MARKOV
+[[15. 14. 17.]
+ [16. 27. 13.]
+ [15. 16. 10.]]
+CUTOFFS
+[0.41543650793650794, 0.46988095238095234, 0.26265873015873015]
+--------------------------------------------------
+What is your move?
+2 5 29
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 47, L: 50, D: 48
+MARKOV
+[[15. 14. 17.]
+ [16. 27. 14.]
+ [15. 16. 10.]]
+CUTOFFS
+[0.41543650793650794, 0.46988095238095234, 0.26265873015873015]
+--------------------------------------------------
+What is your move?
+2 6 29
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 48, L: 50, D: 48
+MARKOV
+[[15. 14. 17.]
+ [16. 27. 14.]
+ [15. 17. 10.]]
+CUTOFFS
+[0.41543650793650794, 0.46988095238095234, 0.27174963924963924]
+--------------------------------------------------
+What is your move?
+2 7 29
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 49, L: 50, D: 48
+MARKOV
+[[15. 14. 17.]
+ [16. 28. 14.]
+ [15. 17. 10.]]
+CUTOFFS
+[0.41543650793650794, 0.48099206349206347, 0.27174963924963924]
+--------------------------------------------------
+What is your move?
+2 8 29
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 49, L: 51, D: 48
+MARKOV
+[[15. 14. 17.]
+ [17. 28. 14.]
+ [15. 17. 10.]]
+CUTOFFS
+[0.41543650793650794, 0.47099206349206346, 0.27174963924963924]
+--------------------------------------------------
+What is your move?
+2 9 29
+
+You won
+
+
+ r, they chose s.
+
+ r, they chose s.
+W: 50, L: 51, D: 48
+MARKOV
+[[15. 14. 18.]
+ [17. 28. 14.]
+ [15. 17. 10.]]
+CUTOFFS
+[0.42543650793650795, 0.47099206349206346, 0.27174963924963924]
+--------------------------------------------------
+What is your move?
+2 10 29
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 50, L: 51, D: 49
+MARKOV
+[[15. 14. 18.]
+ [17. 28. 14.]
+ [15. 17. 11.]]
+CUTOFFS
+[0.42543650793650795, 0.47099206349206346, 0.27174963924963924]
+--------------------------------------------------
+What is your move?
+2 11 29
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 51, L: 51, D: 49
+MARKOV
+[[15. 14. 18.]
+ [17. 28. 14.]
+ [15. 18. 11.]]
+CUTOFFS
+[0.42543650793650795, 0.47099206349206346, 0.2800829725829726]
+--------------------------------------------------
+What is your move?
+2 12 29
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 51, L: 52, D: 49
+MARKOV
+[[15. 14. 18.]
+ [18. 28. 14.]
+ [15. 18. 11.]]
+CUTOFFS
+[0.42543650793650795, 0.46190115440115437, 0.2800829725829726]
+--------------------------------------------------
+What is your move?
+2 13 29
+
+You drew
+
+
+ r, they chose r.
+
+ r, they chose r.
+W: 51, L: 52, D: 50
+MARKOV
+[[16. 14. 18.]
+ [18. 28. 14.]
+ [15. 18. 11.]]
+CUTOFFS
+[0.42543650793650795, 0.46190115440115437, 0.2800829725829726]
+--------------------------------------------------
+What is your move?
+2 14 29
+
+You won
+
+
+ r, they chose s.
+
+ r, they chose s.
+W: 52, L: 52, D: 50
+MARKOV
+[[16. 14. 19.]
+ [18. 28. 14.]
+ [15. 18. 11.]]
+CUTOFFS
+[0.43452741702741704, 0.46190115440115437, 0.2800829725829726]
+--------------------------------------------------
+What is your move?
+2 15 29
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 53, L: 52, D: 50
+MARKOV
+[[16. 14. 19.]
+ [18. 28. 14.]
+ [15. 19. 11.]]
+CUTOFFS
+[0.43452741702741704, 0.46190115440115437, 0.2877752802752803]
+--------------------------------------------------
+What is your move?
+2 16 29
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 53, L: 52, D: 51
+MARKOV
+[[16. 14. 19.]
+ [18. 28. 15.]
+ [15. 19. 11.]]
+CUTOFFS
+[0.43452741702741704, 0.46190115440115437, 0.2877752802752803]
+--------------------------------------------------
+What is your move?
+2 17 29
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 53, L: 53, D: 51
+MARKOV
+[[16. 14. 19.]
+ [18. 28. 15.]
+ [16. 19. 11.]]
+CUTOFFS
+[0.43452741702741704, 0.46190115440115437, 0.2806324231324232]
+--------------------------------------------------
+What is your move?
+2 18 29
+
+You drew
+
+
+ r, they chose r.
+
+ r, they chose r.
+W: 53, L: 53, D: 52
+MARKOV
+[[17. 14. 19.]
+ [18. 28. 15.]
+ [16. 19. 11.]]
+CUTOFFS
+[0.43452741702741704, 0.46190115440115437, 0.2806324231324232]
+--------------------------------------------------
+What is your move?
+2 19 29
+
+You lost
+
+
+ r, they chose p.
+
+ r, they chose p.
+W: 53, L: 54, D: 52
+MARKOV
+[[17. 15. 19.]
+ [18. 28. 15.]
+ [16. 19. 11.]]
+CUTOFFS
+[0.4261940836940837, 0.46190115440115437, 0.2806324231324232]
+--------------------------------------------------
+What is your move?
+2 20 29
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 54, L: 54, D: 52
+MARKOV
+[[17. 15. 19.]
+ [18. 29. 15.]
+ [16. 19. 11.]]
+CUTOFFS
+[0.4261940836940837, 0.4702344877344877, 0.2806324231324232]
+--------------------------------------------------
+What is your move?
+2 21 29
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 54, L: 54, D: 53
+MARKOV
+[[17. 15. 19.]
+ [18. 29. 16.]
+ [16. 19. 11.]]
+CUTOFFS
+[0.4261940836940837, 0.4702344877344877, 0.2806324231324232]
+--------------------------------------------------
+What is your move?
+2 22 29
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 54, L: 54, D: 54
+MARKOV
+[[17. 15. 19.]
+ [18. 29. 16.]
+ [16. 19. 12.]]
+CUTOFFS
+[0.4261940836940837, 0.4702344877344877, 0.2806324231324232]
+--------------------------------------------------
+What is your move?
+2 23 29
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 55, L: 54, D: 54
+MARKOV
+[[17. 15. 19.]
+ [18. 29. 16.]
+ [16. 20. 12.]]
+CUTOFFS
+[0.4261940836940837, 0.4702344877344877, 0.28729908979908986]
+--------------------------------------------------
+What is your move?
+2 24 29
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 56, L: 54, D: 54
+MARKOV
+[[17. 15. 19.]
+ [18. 30. 16.]
+ [16. 20. 12.]]
+CUTOFFS
+[0.4261940836940837, 0.4779267954267954, 0.28729908979908986]
+--------------------------------------------------
+What is your move?
+2 25 29
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 56, L: 55, D: 54
+MARKOV
+[[17. 15. 19.]
+ [19. 30. 16.]
+ [16. 20. 12.]]
+CUTOFFS
+[0.4261940836940837, 0.4707839382839383, 0.28729908979908986]
+--------------------------------------------------
+What is your move?
+2 26 29
+
+You drew
+
+
+ r, they chose r.
+
+ r, they chose r.
+W: 56, L: 55, D: 55
+MARKOV
+[[18. 15. 19.]
+ [19. 30. 16.]
+ [16. 20. 12.]]
+CUTOFFS
+[0.4261940836940837, 0.4707839382839383, 0.28729908979908986]
+--------------------------------------------------
+What is your move?
+2 27 29
+
+You drew
+
+
+ r, they chose r.
+
+ r, they chose r.
+W: 56, L: 55, D: 56
+MARKOV
+[[19. 15. 19.]
+ [19. 30. 16.]
+ [16. 20. 12.]]
+CUTOFFS
+[0.4261940836940837, 0.4707839382839383, 0.28729908979908986]
+--------------------------------------------------
+What is your move?
+2 28 29
+
+You drew
+
+
+ p, they chose p.
+
+ p, they chose p.
+W: 56, L: 55, D: 57
+MARKOV
+[[19. 16. 19.]
+ [19. 30. 16.]
+ [16. 20. 12.]]
+CUTOFFS
+[0.4261940836940837, 0.4707839382839383, 0.28729908979908986]
+--------------------------------------------------
+What is your move?
+0 0 29
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 56, L: 55, D: 58
+MARKOV
+[[19. 16. 19.]
+ [19. 30. 17.]
+ [16. 20. 12.]]
+CUTOFFS
+[0.4261940836940837, 0.4707839382839383, 0.28729908979908986]
+--------------------------------------------------
+What is your move?
+0 1 29
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 57, L: 55, D: 58
+MARKOV
+[[19. 16. 19.]
+ [19. 30. 17.]
+ [16. 21. 12.]]
+CUTOFFS
+[0.4261940836940837, 0.4707839382839383, 0.29354908979908984]
+--------------------------------------------------
+What is your move?
+0 2 29
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 57, L: 56, D: 58
+MARKOV
+[[19. 16. 19.]
+ [20. 30. 17.]
+ [16. 21. 12.]]
+CUTOFFS
+[0.4261940836940837, 0.4641172716172716, 0.29354908979908984]
+--------------------------------------------------
+What is your move?
+0 3 29
+
+You drew
+
+
+ p, they chose p.
+
+ p, they chose p.
+W: 57, L: 56, D: 59
+MARKOV
+[[19. 17. 19.]
+ [20. 30. 17.]
+ [16. 21. 12.]]
+CUTOFFS
+[0.4261940836940837, 0.4641172716172716, 0.29354908979908984]
+--------------------------------------------------
+What is your move?
+0 4 29
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 57, L: 57, D: 59
+MARKOV
+[[19. 17. 19.]
+ [21. 30. 17.]
+ [16. 21. 12.]]
+CUTOFFS
+[0.4261940836940837, 0.45786727161727164, 0.29354908979908984]
+--------------------------------------------------
+What is your move?
+0 5 29
+
+You won
+
+
+ p, they chose r.
+
+ p, they chose r.
+W: 58, L: 57, D: 59
+MARKOV
+[[20. 17. 19.]
+ [21. 30. 17.]
+ [16. 21. 12.]]
+CUTOFFS
+[0.4338863913863914, 0.45786727161727164, 0.29354908979908984]
+--------------------------------------------------
+What is your move?
+0 6 29
+
+You drew
+
+
+ p, they chose p.
+
+ p, they chose p.
+W: 58, L: 57, D: 60
+MARKOV
+[[20. 18. 19.]
+ [21. 30. 17.]
+ [16. 21. 12.]]
+CUTOFFS
+[0.4338863913863914, 0.45786727161727164, 0.29354908979908984]
+--------------------------------------------------
+What is your move?
+0 7 29
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 59, L: 57, D: 60
+MARKOV
+[[20. 18. 19.]
+ [21. 31. 17.]
+ [16. 21. 12.]]
+CUTOFFS
+[0.4338863913863914, 0.4637496245584481, 0.29354908979908984]
+--------------------------------------------------
+What is your move?
+0 8 29
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 59, L: 57, D: 61
+MARKOV
+[[20. 18. 19.]
+ [21. 31. 18.]
+ [16. 21. 12.]]
+CUTOFFS
+[0.4338863913863914, 0.4637496245584481, 0.29354908979908984]
+--------------------------------------------------
+What is your move?
+0 9 29
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 60, L: 57, D: 61
+MARKOV
+[[20. 18. 19.]
+ [21. 31. 18.]
+ [16. 22. 12.]]
+CUTOFFS
+[0.4338863913863914, 0.4637496245584481, 0.2994314427402663]
+--------------------------------------------------
+What is your move?
+0 10 29
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 61, L: 57, D: 61
+MARKOV
+[[20. 18. 19.]
+ [21. 32. 18.]
+ [16. 22. 12.]]
+CUTOFFS
+[0.4338863913863914, 0.46930518011400363, 0.2994314427402663]
+--------------------------------------------------
+What is your move?
+0 11 29
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 62, L: 57, D: 61
+MARKOV
+[[20. 18. 19.]
+ [21. 33. 18.]
+ [16. 22. 12.]]
+CUTOFFS
+[0.4338863913863914, 0.4745683380087405, 0.2994314427402663]
+--------------------------------------------------
+What is your move?
+0 12 29
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 63, L: 57, D: 61
+MARKOV
+[[20. 18. 19.]
+ [21. 34. 18.]
+ [16. 22. 12.]]
+CUTOFFS
+[0.4338863913863914, 0.4795683380087405, 0.2994314427402663]
+--------------------------------------------------
+What is your move?
+0 13 29
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 63, L: 58, D: 61
+MARKOV
+[[20. 18. 19.]
+ [22. 34. 18.]
+ [16. 22. 12.]]
+CUTOFFS
+[0.4338863913863914, 0.47480643324683575, 0.2994314427402663]
+--------------------------------------------------
+What is your move?
+0 14 29
+
+You won
+
+
+ p, they chose r.
+
+ p, they chose r.
+W: 64, L: 58, D: 61
+MARKOV
+[[21. 18. 19.]
+ [22. 34. 18.]
+ [16. 22. 12.]]
+CUTOFFS
+[0.4410292485292485, 0.47480643324683575, 0.2994314427402663]
+--------------------------------------------------
+What is your move?
+0 15 29
+
+You drew
+
+
+ p, they chose p.
+
+ p, they chose p.
+W: 64, L: 58, D: 62
+MARKOV
+[[21. 19. 19.]
+ [22. 34. 18.]
+ [16. 22. 12.]]
+CUTOFFS
+[0.4410292485292485, 0.47480643324683575, 0.2994314427402663]
+--------------------------------------------------
+What is your move?
+0 16 29
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 64, L: 58, D: 63
+MARKOV
+[[21. 19. 19.]
+ [22. 34. 19.]
+ [16. 22. 12.]]
+CUTOFFS
+[0.4410292485292485, 0.47480643324683575, 0.2994314427402663]
+--------------------------------------------------
+What is your move?
+0 17 29
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 64, L: 58, D: 64
+MARKOV
+[[21. 19. 19.]
+ [22. 34. 19.]
+ [16. 22. 13.]]
+CUTOFFS
+[0.4410292485292485, 0.47480643324683575, 0.2994314427402663]
+--------------------------------------------------
+What is your move?
+0 18 29
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 64, L: 58, D: 65
+MARKOV
+[[21. 19. 19.]
+ [22. 34. 19.]
+ [16. 22. 14.]]
+CUTOFFS
+[0.4410292485292485, 0.47480643324683575, 0.2994314427402663]
+--------------------------------------------------
+What is your move?
+0 19 29
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 65, L: 58, D: 65
+MARKOV
+[[21. 19. 19.]
+ [22. 34. 19.]
+ [16. 23. 14.]]
+CUTOFFS
+[0.4410292485292485, 0.47480643324683575, 0.3049869982958218]
+--------------------------------------------------
+What is your move?
+0 20 29
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 65, L: 58, D: 66
+MARKOV
+[[21. 19. 19.]
+ [22. 34. 20.]
+ [16. 23. 14.]]
+CUTOFFS
+[0.4410292485292485, 0.47480643324683575, 0.3049869982958218]
+--------------------------------------------------
+What is your move?
+0 21 29
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 66, L: 58, D: 66
+MARKOV
+[[21. 19. 19.]
+ [22. 34. 20.]
+ [16. 24. 14.]]
+CUTOFFS
+[0.4410292485292485, 0.47480643324683575, 0.3102501561905587]
+--------------------------------------------------
+What is your move?
+0 22 29
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 67, L: 58, D: 66
+MARKOV
+[[21. 19. 19.]
+ [22. 35. 20.]
+ [16. 24. 14.]]
+CUTOFFS
+[0.4410292485292485, 0.47935188779229027, 0.3102501561905587]
+--------------------------------------------------
+What is your move?
+0 23 29
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 68, L: 58, D: 66
+MARKOV
+[[21. 19. 19.]
+ [22. 36. 20.]
+ [16. 24. 14.]]
+CUTOFFS
+[0.4410292485292485, 0.48369971387924676, 0.3102501561905587]
+--------------------------------------------------
+What is your move?
+0 24 29
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 68, L: 58, D: 67
+MARKOV
+[[21. 19. 19.]
+ [22. 36. 21.]
+ [16. 24. 14.]]
+CUTOFFS
+[0.4410292485292485, 0.48369971387924676, 0.3102501561905587]
+--------------------------------------------------
+What is your move?
+0 25 29
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 68, L: 59, D: 67
+MARKOV
+[[21. 19. 19.]
+ [22. 36. 21.]
+ [17. 24. 14.]]
+CUTOFFS
+[0.4410292485292485, 0.48369971387924676, 0.3052501561905587]
+--------------------------------------------------
+What is your move?
+0 26 29
+
+You lost
+
+
+ p, they chose s.
+
+ p, they chose s.
+W: 68, L: 60, D: 67
+MARKOV
+[[21. 19. 20.]
+ [22. 36. 21.]
+ [17. 24. 14.]]
+CUTOFFS
+[0.43436258186258186, 0.48369971387924676, 0.3052501561905587]
+--------------------------------------------------
+What is your move?
+0 27 29
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 69, L: 60, D: 67
+MARKOV
+[[21. 19. 20.]
+ [22. 36. 21.]
+ [17. 25. 14.]]
+CUTOFFS
+[0.43436258186258186, 0.48369971387924676, 0.3100120609524634]
+--------------------------------------------------
+What is your move?
+0 28 29
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 69, L: 61, D: 67
+MARKOV
+[[21. 19. 20.]
+ [23. 36. 21.]
+ [17. 25. 14.]]
+CUTOFFS
+[0.43436258186258186, 0.4795330472125801, 0.3100120609524634]
+--------------------------------------------------
+What is your move?
+4 0 27
+
+You won
+
+
+ p, they chose r.
+
+ p, they chose r.
+W: 70, L: 61, D: 67
+MARKOV
+[[22. 19. 20.]
+ [23. 36. 21.]
+ [17. 25. 14.]]
+CUTOFFS
+[0.44061258186258184, 0.4795330472125801, 0.3100120609524634]
+--------------------------------------------------
+What is your move?
+4 1 27
+
+You lost
+
+
+ p, they chose s.
+
+ p, they chose s.
+W: 70, L: 62, D: 67
+MARKOV
+[[22. 19. 21.]
+ [23. 36. 21.]
+ [17. 25. 14.]]
+CUTOFFS
+[0.4347302289214054, 0.4795330472125801, 0.3100120609524634]
+--------------------------------------------------
+What is your move?
+4 2 27
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 71, L: 62, D: 67
+MARKOV
+[[22. 19. 21.]
+ [23. 36. 21.]
+ [17. 26. 14.]]
+CUTOFFS
+[0.4347302289214054, 0.4795330472125801, 0.31455751549791794]
+--------------------------------------------------
+What is your move?
+4 3 27
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 71, L: 63, D: 67
+MARKOV
+[[22. 19. 21.]
+ [24. 36. 21.]
+ [17. 26. 14.]]
+CUTOFFS
+[0.4347302289214054, 0.4755330472125801, 0.31455751549791794]
+--------------------------------------------------
+What is your move?
+4 4 27
+
+You lost
+
+
+ p, they chose s.
+
+ p, they chose s.
+W: 71, L: 64, D: 67
+MARKOV
+[[22. 19. 22.]
+ [24. 36. 21.]
+ [17. 26. 14.]]
+CUTOFFS
+[0.42917467336584986, 0.4755330472125801, 0.31455751549791794]
+--------------------------------------------------
+What is your move?
+4 5 27
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 72, L: 64, D: 67
+MARKOV
+[[22. 19. 22.]
+ [24. 36. 21.]
+ [17. 27. 14.]]
+CUTOFFS
+[0.42917467336584986, 0.4755330472125801, 0.31890534158487444]
+--------------------------------------------------
+What is your move?
+4 6 27
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 73, L: 64, D: 67
+MARKOV
+[[22. 19. 22.]
+ [24. 37. 21.]
+ [17. 27. 14.]]
+CUTOFFS
+[0.42917467336584986, 0.47937920105873394, 0.31890534158487444]
+--------------------------------------------------
+What is your move?
+4 7 27
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 74, L: 64, D: 67
+MARKOV
+[[22. 19. 22.]
+ [24. 38. 21.]
+ [17. 27. 14.]]
+CUTOFFS
+[0.42917467336584986, 0.48308290476243765, 0.31890534158487444]
+--------------------------------------------------
+What is your move?
+4 8 27
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 75, L: 64, D: 67
+MARKOV
+[[22. 19. 22.]
+ [24. 39. 21.]
+ [17. 27. 14.]]
+CUTOFFS
+[0.42917467336584986, 0.4866543333338662, 0.31890534158487444]
+--------------------------------------------------
+What is your move?
+4 9 27
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 75, L: 64, D: 68
+MARKOV
+[[22. 19. 22.]
+ [24. 39. 22.]
+ [17. 27. 14.]]
+CUTOFFS
+[0.42917467336584986, 0.4866543333338662, 0.31890534158487444]
+--------------------------------------------------
+What is your move?
+4 10 27
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 76, L: 64, D: 68
+MARKOV
+[[22. 19. 22.]
+ [24. 39. 22.]
+ [17. 28. 14.]]
+CUTOFFS
+[0.42917467336584986, 0.4866543333338662, 0.3230720082515411]
+--------------------------------------------------
+What is your move?
+4 11 27
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 76, L: 65, D: 68
+MARKOV
+[[22. 19. 22.]
+ [25. 39. 22.]
+ [17. 28. 14.]]
+CUTOFFS
+[0.42917467336584986, 0.48320605747179723, 0.3230720082515411]
+--------------------------------------------------
+What is your move?
+4 12 27
+
+You lost
+
+
+ p, they chose s.
+
+ p, they chose s.
+W: 76, L: 66, D: 68
+MARKOV
+[[22. 19. 23.]
+ [25. 39. 22.]
+ [17. 28. 14.]]
+CUTOFFS
+[0.423911515471113, 0.48320605747179723, 0.3230720082515411]
+--------------------------------------------------
+What is your move?
+4 13 27
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 77, L: 66, D: 68
+MARKOV
+[[22. 19. 23.]
+ [25. 39. 22.]
+ [17. 29. 14.]]
+CUTOFFS
+[0.423911515471113, 0.48320605747179723, 0.3270720082515411]
+--------------------------------------------------
+What is your move?
+4 14 27
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 77, L: 67, D: 68
+MARKOV
+[[22. 19. 23.]
+ [26. 39. 22.]
+ [17. 29. 14.]]
+CUTOFFS
+[0.423911515471113, 0.4798727241384639, 0.3270720082515411]
+--------------------------------------------------
+What is your move?
+4 15 27
+
+You lost
+
+
+ r, they chose p.
+
+ r, they chose p.
+W: 77, L: 68, D: 68
+MARKOV
+[[22. 20. 23.]
+ [26. 39. 22.]
+ [17. 29. 14.]]
+CUTOFFS
+[0.418911515471113, 0.4798727241384639, 0.3270720082515411]
+--------------------------------------------------
+What is your move?
+4 16 27
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 78, L: 68, D: 68
+MARKOV
+[[22. 20. 23.]
+ [26. 40. 22.]
+ [17. 29. 14.]]
+CUTOFFS
+[0.418911515471113, 0.4830985305900768, 0.3270720082515411]
+--------------------------------------------------
+What is your move?
+4 17 27
+
+You won
+
+
+ s, they chose p.
+
+ s, they chose p.
+W: 79, L: 68, D: 68
+MARKOV
+[[22. 20. 23.]
+ [26. 41. 22.]
+ [17. 29. 14.]]
+CUTOFFS
+[0.418911515471113, 0.4862235305900768, 0.3270720082515411]
+--------------------------------------------------
+What is your move?
+4 18 27
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 79, L: 69, D: 68
+MARKOV
+[[22. 20. 23.]
+ [27. 41. 22.]
+ [17. 29. 14.]]
+CUTOFFS
+[0.418911515471113, 0.48319322755977373, 0.3270720082515411]
+--------------------------------------------------
+What is your move?
+4 19 27
+
+You lost
+
+
+ r, they chose p.
+
+ r, they chose p.
+W: 79, L: 70, D: 68
+MARKOV
+[[22. 21. 23.]
+ [27. 41. 22.]
+ [17. 29. 14.]]
+CUTOFFS
+[0.41414961070920825, 0.48319322755977373, 0.3270720082515411]
+--------------------------------------------------
+What is your move?
+4 20 27
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 79, L: 71, D: 68
+MARKOV
+[[22. 21. 23.]
+ [28. 41. 22.]
+ [17. 29. 14.]]
+CUTOFFS
+[0.41414961070920825, 0.4802520510891855, 0.3270720082515411]
+--------------------------------------------------
+What is your move?
+4 21 27
+
+You won
+
+
+ r, they chose s.
+
+ r, they chose s.
+W: 80, L: 71, D: 68
+MARKOV
+[[22. 21. 24.]
+ [28. 41. 22.]
+ [17. 29. 14.]]
+CUTOFFS
+[0.41869506525466277, 0.4802520510891855, 0.3270720082515411]
+--------------------------------------------------
+What is your move?
+4 22 27
+
+You drew
+
+
+ s, they chose s.
+
+ s, they chose s.
+W: 80, L: 71, D: 69
+MARKOV
+[[22. 21. 24.]
+ [28. 41. 22.]
+ [17. 29. 15.]]
+CUTOFFS
+[0.41869506525466277, 0.4802520510891855, 0.3270720082515411]
+--------------------------------------------------
+What is your move?
+4 23 27
+
+You lost
+
+
+ s, they chose r.
+
+ s, they chose r.
+W: 80, L: 72, D: 69
+MARKOV
+[[22. 21. 24.]
+ [28. 41. 22.]
+ [18. 29. 15.]]
+CUTOFFS
+[0.41869506525466277, 0.4802520510891855, 0.32322585440538726]
+--------------------------------------------------
+What is your move?
+4 24 27
+
+You drew
+
+
+ r, they chose r.
+
+ r, they chose r.
+W: 80, L: 72, D: 70
+MARKOV
+[[23. 21. 24.]
+ [28. 41. 22.]
+ [18. 29. 15.]]
+CUTOFFS
+[0.41869506525466277, 0.4802520510891855, 0.32322585440538726]
+--------------------------------------------------
+What is your move?
+4 25 27
+
+You won
+
+
+ r, they chose s.
+
+ r, they chose s.
+W: 81, L: 72, D: 70
+MARKOV
+[[23. 21. 25.]
+ [28. 41. 22.]
+ [18. 29. 15.]]
+CUTOFFS
+[0.42304289134161926, 0.4802520510891855, 0.32322585440538726]

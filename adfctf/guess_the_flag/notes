@@ -1,0 +1,15 @@
+*
+Checking...
+./run.sh: line 15: [: too many arguments
+Good attempt, but no.
+
+What do you think the flag is?
+
+looks like it is running a shell command
+
+https://stackoverflow.com/questions/13781216/meaning-of-too-many-arguments-error-from-if-square-brackets
+
+Its in if statement
+
+Injection method
+https://developer.apple.com/library/archive/documentation/OpenSource/Conceptual/ShellScripting/ShellScriptSecurity/ShellScriptSecurity.html

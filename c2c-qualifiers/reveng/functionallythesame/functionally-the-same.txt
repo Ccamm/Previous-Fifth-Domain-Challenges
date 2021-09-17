@@ -1,0 +1,13 @@
+Dump of assembler code for function main:
+   0x000055555555515c <+0>:     push   rbp
+   0x000055555555515d <+1>:     mov    rbp,rsp
+=> 0x0000555555555160 <+4>:     mov    eax,0x0
+   0x0000555555555165 <+9>:     call   0x555555555135 <function>
+   0x000055555555516a <+14>:    mov    esi,eax
+   0x000055555555516c <+16>:    lea    rdi,[rip+0xe91]        # 0x555555556004
+   0x0000555555555173 <+23>:    mov    eax,0x0
+   0x0000555555555178 <+28>:    call   0x555555555030 <printf@plt>
+   0x000055555555517d <+33>:    mov    eax,0x0
+   0x0000555555555182 <+38>:    pop    rbp
+   0x0000555555555183 <+39>:    ret    
+End of assembler dump.

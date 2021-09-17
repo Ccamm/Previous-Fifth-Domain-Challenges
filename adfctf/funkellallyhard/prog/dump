@@ -1,0 +1,346 @@
+14027 execve("./reveng", ["./reveng"], 0x7ffeeeeb05e8 /* 53 vars */) = 0
+14027 brk(NULL)                         = 0x1e22000
+14027 brk(0x1e23200)                    = 0x1e23200
+14027 arch_prctl(ARCH_SET_FS, 0x1e228c0) = 0
+14027 uname({sysname="Linux", nodename="kali", ...}) = 0
+14027 set_tid_address(0x1e22b90)        = 14027
+14027 set_robust_list(0x1e22ba0, 24)    = 0
+14027 rt_sigaction(SIGRTMIN, {sa_handler=0x4d6680, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x4dabc0}, NULL, 8) = 0
+14027 rt_sigaction(SIGRT_1, {sa_handler=0x4d6710, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x4dabc0}, NULL, 8) = 0
+14027 rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+14027 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+14027 readlink("/proc/self/exe", "/home/ghostccamm/Desktop/adfctf/"..., 4096) = 59
+14027 brk(0x1e44200)                    = 0x1e44200
+14027 brk(0x1e45000)                    = 0x1e45000
+14027 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+14027 openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+14027 fstat(3, {st_mode=S_IFREG|0644, st_size=2996, ...}) = 0
+14027 read(3, "# Locale name alias data base.\n#"..., 4096) = 2996
+14027 read(3, "", 4096)                 = 0
+14027 close(3)                          = 0
+14027 openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+14027 openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = 3
+14027 fstat(3, {st_mode=S_IFREG|0644, st_size=346132, ...}) = 0
+14027 mmap(NULL, 346132, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7faf1f605000
+14027 close(3)                          = 0
+14027 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+14027 fstat(3, {st_mode=S_IFREG|0644, st_size=27002, ...}) = 0
+14027 mmap(NULL, 27002, PROT_READ, MAP_SHARED, 3, 0) = 0x7faf1f5fe000
+14027 close(3)                          = 0
+14027 futex(0x5f5cd0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14027 clock_gettime(CLOCK_PROCESS_CPUTIME_ID, {tv_sec=0, tv_nsec=2616666}) = 0
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=436140653}) = 0
+14027 sysinfo({uptime=12190, loads=[26432, 27968, 30944], totalram=4121886720, freeram=161468416, sharedram=113242112, bufferram=84332544, totalswap=0, freeswap=0, procs=875, totalhigh=0, freehigh=0, mem_unit=1}) = 0
+14027 mmap(0x4200000000, 1099512676352, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x4200000000
+14027 madvise(0x4200000000, 1099512676352, MADV_DONTNEED) = 0
+14027 madvise(0x4200000000, 1099512676352, MADV_DONTDUMP) = 0
+14027 mmap(0x4200000000, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x4200000000
+14027 madvise(0x4200000000, 1048576, MADV_WILLNEED) = 0
+14027 madvise(0x4200000000, 1048576, MADV_DODUMP) = 0
+14027 mmap(0x4200100000, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x4200100000
+14027 madvise(0x4200100000, 1048576, MADV_WILLNEED) = 0
+14027 madvise(0x4200100000, 1048576, MADV_DODUMP) = 0
+14027 timer_create(CLOCK_MONOTONIC, {sigev_signo=SIGVTALRM, sigev_notify=SIGEV_SIGNAL}, [0]) = 0
+14027 rt_sigaction(SIGVTALRM, {sa_handler=0x49c390, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x4dabc0}, NULL, 8) = 0
+14027 timer_settime(0, 0, {it_interval={tv_sec=0, tv_nsec=10000000}, it_value={tv_sec=0, tv_nsec=10000000}}, NULL) = 0
+14027 rt_sigaction(SIGINT, {sa_handler=0x4a8b00, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x4dabc0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+14027 rt_sigaction(SIGINT, NULL, {sa_handler=0x4a8b00, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x4dabc0}, 8) = 0
+14027 rt_sigaction(SIGINT, {sa_handler=0x4a8b00, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x4dabc0}, NULL, 8) = 0
+14027 rt_sigaction(SIGPIPE, {sa_handler=0x4a8a60, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x4dabc0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+14027 rt_sigaction(SIGQUIT, {sa_handler=0x4a8ae0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x4dabc0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+14027 rt_sigaction(SIGTSTP, {sa_handler=0x4a8b20, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x4dabc0}, NULL, 8) = 0
+14027 clock_gettime(CLOCK_PROCESS_CPUTIME_ID, {tv_sec=0, tv_nsec=3933837}) = 0
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=441121223}) = 0
+14027 rt_sigprocmask(SIG_BLOCK, [INT], [], 8) = 0
+14027 rt_sigaction(SIGINT, {sa_handler=0x4a8ba0, sa_mask=[], sa_flags=SA_RESTORER|SA_RESETHAND|SA_SIGINFO, sa_restorer=0x4dabc0}, NULL, 8) = 0
+14027 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+14027 ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+14027 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=442580113}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=451138659}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=460959780}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=471167579}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=480558928}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=490561519}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=501962844}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=511790684}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=520753632}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=531519889}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=540643861}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=550658061}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=561027809}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=571614013}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=580584940}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=592053929}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=601864315}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=610608695}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=621812722}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=630654198}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=640596644}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=651310314}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=661627616}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=671239146}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=681491660}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=690641814}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=701533669}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=710637232}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=721836267}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=731536587}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=740580818}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=751773374}) = 0
+14027 select(1, [0], [], NULL, NULL)    = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 timer_settime(0, 0, {it_interval={tv_sec=0, tv_nsec=0}, it_value={tv_sec=0, tv_nsec=0}}, NULL) = 0
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12189, tv_nsec=762425822}) = 0
+14027 select(1, [0], [], NULL, NULL)    = 1 (in [0])
+14027 timer_settime(0, 0, {it_interval={tv_sec=0, tv_nsec=10000000}, it_value={tv_sec=0, tv_nsec=10000000}}, NULL) = 0
+14027 read(0, "saddsa\n", 8192)         = 7
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12191, tv_nsec=974303844}) = 0
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12191, tv_nsec=974745243}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=999558}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12191, tv_nsec=986433126}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=989850}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12191, tv_nsec=996425794}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=981832}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=6111377}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=974258}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=14769266}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=967318}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=24881892}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=958976}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=34801426}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=950791}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=44711937}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=942509}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=56171103}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=932795}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=64757400}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=925901}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=75617718}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=916873}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=85624454}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=908375}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=96088683}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=899826}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=1, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=115198118}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=882341}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=125969630}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=873577}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=134803493}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=866428}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=144958095}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=858175}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=155711946}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=849235}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=164881248}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=841939}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=174997962}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=833693}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=186829517}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=823711}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=194871497}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=817441}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=205893824}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=808946}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=214033678}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=801451}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=232235472}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=783930}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=235248243}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=781710}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=252247321}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=765773}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=254085311}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=764610}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=267663991}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=751663}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=276961096}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=743363}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=285465277}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=735903}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=294085482}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=727973}) = ? ERESTARTNOHAND (To be restarted if no handler)
+14027 --- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=NULL}} ---
+14027 timer_settime(0, 0, {it_interval={tv_sec=0, tv_nsec=0}, it_value={tv_sec=0, tv_nsec=0}}, NULL) = 0
+14027 rt_sigreturn({mask=[]})           = -1 EINTR (Interrupted system call)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12192, tv_nsec=308584099}) = 0
+14027 select(0, 0x7fff36d8c4b0, 0x7fff36d8c530, NULL, {tv_sec=2, tv_usec=714654}) = 0 (Timeout)
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12195, tv_nsec=28034972}) = 0
+14027 timer_settime(0, 0, {it_interval={tv_sec=0, tv_nsec=10000000}, it_value={tv_sec=0, tv_nsec=10000000}}, NULL) = 0
+14027 ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+14027 poll([{fd=1, events=POLLOUT}], 1, 0) = 1 ([{fd=1, revents=POLLOUT}])
+14027 write(1, "no\n", 3)               = 3
+14027 clock_gettime(CLOCK_PROCESS_CPUTIME_ID, {tv_sec=0, tv_nsec=42277341}) = 0
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12195, tv_nsec=29313258}) = 0
+14027 rt_sigprocmask(SIG_BLOCK, [INT], [], 8) = 0
+14027 clock_gettime(CLOCK_PROCESS_CPUTIME_ID, {tv_sec=0, tv_nsec=42460758}) = 0
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12195, tv_nsec=29932717}) = 0
+14027 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+14027 timer_settime(0, 0, {it_interval={tv_sec=0, tv_nsec=0}, it_value={tv_sec=0, tv_nsec=0}}, NULL) = 0
+14027 rt_sigaction(SIGVTALRM, {sa_handler=SIG_IGN, sa_mask=[VTALRM], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x4dabc0}, {sa_handler=0x49c390, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x4dabc0}, 8) = 0
+14027 timer_delete(0)                   = 0
+14027 rt_sigprocmask(SIG_BLOCK, [TTOU], [], 8) = 0
+14027 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+14027 rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x4dabc0}, NULL, 8) = 0
+14027 rt_sigaction(SIGPIPE, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x4dabc0}, NULL, 8) = 0
+14027 rt_sigaction(SIGTSTP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x4dabc0}, NULL, 8) = 0
+14027 clock_gettime(CLOCK_PROCESS_CPUTIME_ID, {tv_sec=0, tv_nsec=43257041}) = 0
+14027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=12195, tv_nsec=32317453}) = 0
+14027 exit_group(0)                     = ?
+14027 +++ exited with 0 +++

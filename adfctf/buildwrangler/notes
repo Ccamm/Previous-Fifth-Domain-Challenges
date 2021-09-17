@@ -1,0 +1,10 @@
+	
+maxConcurrentJobs	3
+jobTimeout	120
+jobContainerImage	"registry.gitlab.com/jack30/pythonbuster:latest"
+jobNetworkIsolation	true
+
+
+config
+
+
