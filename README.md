@@ -8,6 +8,14 @@ I feel guilty that I did not bring this up during the C2C CTF, and that's why I 
 
 **Competition CTFs should not have reused challenges! We all want to learn something new and have fun!**
 
+## Unsolvable Challenges
+
+Technically, these could be solvable but no one has been able to in all of the CTFs it has popped up in. If you have solved it let me know.
+
+* Gothams Weather: Seen in 4 CTFs (Including BSides)
+* Adversarial Server: Seen in 2 CTFs (Including BSides)
+* Snowy Emails: Seen in 2 CTFS (Including BSides)
+
 ## Screenshots of Previous CTFs
 
 **ADF Cyber GAP CTF**
