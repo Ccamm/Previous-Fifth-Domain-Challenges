@@ -16,6 +16,9 @@ Technically, these could be solvable but no one has been able to in all of the C
 * Adversarial Server: Seen in 2 CTFs (Including BSides)
 * Snowy Emails: Seen in 2 CTFS (Including BSides)
 * Answer Key: Seen in 2 CTFs (Including BSides)
+* Functionally the Same: Seen in 2 CTFs (Including BSides)
+* Secret Service: Seen in 2 CTFs (Including BSides)
+* Some TOR challenge I can't remember the name of: Seen in 2 CTFs (Including BSides)
 
 ## Screenshots of Previous CTFs
 
