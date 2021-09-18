@@ -15,6 +15,7 @@ Technically, these could be solvable but no one has been able to in all of the C
 * Gothams Weather: Seen in 4 CTFs (Including BSides)
 * Adversarial Server: Seen in 2 CTFs (Including BSides)
 * Snowy Emails: Seen in 2 CTFS (Including BSides)
+* Answer Key: Seen in 2 CTFs (Including BSides)
 
 ## Screenshots of Previous CTFs
 
