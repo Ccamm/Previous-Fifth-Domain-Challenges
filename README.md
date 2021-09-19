@@ -12,10 +12,10 @@ I feel guilty that I did not bring this up during the C2C CTF, and that's why I 
 
 Technically, these could be solvable but no one has been able to in all of the CTFs it has popped up in. If you have solved it let me know.
 
-* ~~Gothams Weather: Seen in 4 CTFs (Including BSides)~~
+* ~~Gothams Weather: Seen in 4 CTFs (Including BSides)~~: Steganography on NaNs in numpy
 * Adversarial Server: Seen in 2 CTFs (Including BSides)
 * Snowy Emails: Seen in 2 CTFS (Including BSides)
-* Answer Key: Seen in 2 CTFs (Including BSides)
+* ~~Answer Key: Seen in 2 CTFs (Including BSides)~~: Didn't tRy h4rD3r!1!! The password for the doc is p373rP4n1990
 * Functionally the Same: Seen in 2 CTFs (Including BSides)
 * Secret Service: Seen in 2 CTFs (Including BSides)
 * Some TOR challenge I can't remember the name of: Seen in 2 CTFs (Including BSides)
